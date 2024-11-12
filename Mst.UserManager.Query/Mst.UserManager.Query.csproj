@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Query\Common.Query.csproj" />
+    <ProjectReference Include="..\Mst.UserManager.Infrastructure\Mst.UserManager.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="RoleAgg\" />
+    <Folder Include="UserAgg\" />
+  </ItemGroup>
+
+</Project>
