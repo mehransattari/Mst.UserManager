@@ -11,11 +11,4 @@
     <ProjectReference Include="..\Mst.UserManager.Domain\Mst.UserManager.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UserAgg\UserAddress\" />
-    <Folder Include="UserAgg\UserToken\" />
-    <Folder Include="UserAgg\UserPermission\" />
-    <Folder Include="UserAgg\UserRoles\" />
-  </ItemGroup>
-
 </Project>
