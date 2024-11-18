@@ -15,4 +15,11 @@ public class Permission : AggregateRoot
         Name = name;
         Description = description;
     }
+
+    public void Edit(string name, string? description)
+    {
+        Name = name;
+        Description = description;
+    }
+
 }

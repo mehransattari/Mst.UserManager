@@ -8,8 +8,9 @@ public class RolePermission : BaseEntity
 
     public long PermissionId { get; private set; }
 
-    public RolePermission(long permissionId)
+    public RolePermission(long permissionId, long roleId)
     {
         PermissionId = permissionId;
+        RoleId = roleId;
     }
 }
